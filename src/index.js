@@ -4,9 +4,10 @@ import "jquery";
 import "bootstrap/dist/js/bootstrap";
 import "popper.js/dist/umd/popper"
 import "bootstrap/dist/css/bootstrap.css";
+import {NavBar} from "./components/navbarg";
 
 
 
-var element=<div>Hola Mundo</div>;
-ReactDOM.render(element, document.getElementById("root"));
+
+ReactDOM.render(<NavBar></NavBar>, document.getElementById("root"));
 
