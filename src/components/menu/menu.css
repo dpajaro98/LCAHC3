@@ -1,0 +1,13 @@
+.fondomenu{
+    background-image: url(../../img/chef-5993951_1280.jpg) ;
+    background-repeat: calc(100% - 200px);
+}
+  .Titulodemenu{
+      color: whitesmoke;
+      text-indent: 200px;
+
+  }
+  #i1,#i2,#i3,#i4{
+      margin:2px;
+      background-color: chocolate !important;
+  }
