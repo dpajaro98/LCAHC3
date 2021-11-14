@@ -2,10 +2,10 @@ import React from "react";
 
 class Asidecarrito extends React.Component{
     render(){
-        const nPla1 = "pasta";
-        const nPla2 = "pasta a la veneciana";
-        const nPla3 = "ganso asado";
-        const nPla4 = "sopa de res";
+        const nPla1 = "Pasta a la Bolognesa";
+        const nPla2 = "Pasta a la Veneciana";
+        const nPla3 = "Ganso Asado";
+        const nPla4 = "Sopa de Res";
         
         var Ppla1 = localStorage.getItem(nPla1);
         var Ppla2 = localStorage.getItem(nPla2);

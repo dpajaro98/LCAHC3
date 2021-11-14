@@ -5,9 +5,7 @@ import imagen3 from '../../img/ganso asado.jpg';
 import imagen4 from '../../img/sopa de res.jpg';
 import imagen5 from '../../img/menu-3206749_1280.jpg';
 import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
+   
     Link
   } from "react-router-dom";
 
@@ -48,7 +46,7 @@ const Article2inicio = () =>{
             <br></br>
             <div className="container">
                 <br></br>
-                <Link to="menu"><button type="button" class="btn btn-warning">Visita Nuestro Menu</button></Link>
+                <Link to="/Menu"><button type="button" class="btn btn-warning">Visita Nuestro Menu</button></Link>
             </div>
 
             

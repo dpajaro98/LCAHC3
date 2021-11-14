@@ -18,10 +18,10 @@ import {
 class Carrito extends react.Component{
 
     render(){
-        const nPla1 = "Pasta";
+        const nPla1 = "Pasta a la Bolognesa";
         const nPla2 = "Pasta a La Veneciana";
-        const nPla3 = "ganso asado";
-        const nPla4 = "sopa de res";
+        const nPla3 = "Ganso Asado";
+        const nPla4 = "Sopa de Res";
         
         var Ppla1 = localStorage.getItem(nPla1);
         var Ppla2 = localStorage.getItem(nPla2);
@@ -36,7 +36,7 @@ class Carrito extends react.Component{
                 <h1 className="Titulocarrito">BIENVENIDO AL CARRITO DE COMPRAS</h1>
                 <br></br>
                 <br></br>
-                <h2 className="Titulocarrito">Aqui encontraras tus selecciones del menu</h2>  <Link to="/menu">  <button className="btn btn-primary btn-block">Ir ala seleccion del menu</button></Link>
+                <h2 className="Titulocarrito">Aqui encontraras tus selecciones del menu</h2>  <Link to="/menu">  <button className="btn btn-primary btn-block">Ir a la seleccion del menu</button></Link>
               </div>
               </div>
               <br></br>
@@ -44,7 +44,7 @@ class Carrito extends react.Component{
                   {
                     Ppla1 > 0 ? 
                     
-                    <Plantillacarrito identificador="pasta" Nombredeplato= "pasta" Imagendeplato={Imagen1} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />  : <div></div>
+                    <Plantillacarrito identificador="Pasta a la Bolognesa" Nombredeplato= "Pasta a la Bolognesa" Imagendeplato={Imagen1} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." />  : <div></div>
                     
                   }
                   
@@ -57,14 +57,14 @@ class Carrito extends react.Component{
                 </div>
                 <div className="container-sm btn-warning">
                 {
-                    Ppla3 > 0 ?  <Plantillacarrito identificador="ganso asado" Nombredeplato= "ganso asado" Imagendeplato={Imagen3} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." /> : <div></div>
+                    Ppla3 > 0 ?  <Plantillacarrito identificador="Ganso Asado" Nombredeplato= "Ganso Asado" Imagendeplato={Imagen3} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." /> : <div></div>
                     
                   }
                   
                 </div>
                 <div className="container-sm btn-dark">
                 {
-                    Ppla4 > 0 ?  <Plantillacarrito identificador="sopa de res" Nombredeplato= "sopa de res" Imagendeplato={Imagen4} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." /> : <div></div>
+                    Ppla4 > 0 ?  <Plantillacarrito identificador="Sopa de Res" Nombredeplato= "Sopa de Res" Imagendeplato={Imagen4} Descripciondeplato="El escalope vienés o pasta es uno de los platos más conocidos de la cocina de Austria. Se prepara con un fino filete de carne de ternera que se ablanda con un mazo de cocina y se reboza antes de freír." /> : <div></div>
                     
                   }
                   

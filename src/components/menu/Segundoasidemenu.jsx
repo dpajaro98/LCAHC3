@@ -1,7 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -15,7 +15,7 @@ class Segundoasidemenu extends React.Component{
                     <div className="col-4">
                         <br></br>
                         <br></br>
-                        <Link to="/Carrito">  <button className="btn btn-primary btn-block"><img className="img-thumbnail" src={this.props.carrito} alt="carrito"  width="30px"/>    Confirma tu pedido</button></Link>
+                        <Link to="/carrito">  <button className="btn btn-primary btn-block"><img className="img-thumbnail" src={this.props.carrito} alt="carrito"  width="30px"/>    Confirma tu pedido</button></Link>
                     </div>
                     <div className="col-4"></div>
                 </div>

@@ -6,9 +6,7 @@ class Modalmenu extends React.Component{
         return(
             <div>
                 <div className="container">
-                    <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                      Más información aquí
-                    </button>
+                    
                     <div className="modal" id="myModal">
                       <div className="modal-dialog">
                         <div className="modal-content">

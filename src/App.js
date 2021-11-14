@@ -24,22 +24,23 @@ function App() {
     <Navbarh />
     <div>
       <Routes>
-        <Route path="/menu">
-          <Menu />
-        </Route>
+
+        <Route exact path='/menu' element={<Menu/>}/>
+          
+        
         
           
        
         
-        <Route path="/Carrito" >
-          <Carrito />
-        </Route>
-        <Route path="/">
-          <Inicio />
-        </Route>
+       <Route exact path='/Carrito' element={<Carrito/>}/>
+       <Route pexact path='/Inicio' element={<Inicio/>}>
 
+       </Route>
       </Routes>
-      </div>
+
+
+    </div>
+      
       <Footer/>
     </Router>
   </div></>

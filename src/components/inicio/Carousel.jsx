@@ -1,5 +1,5 @@
 import React from "react";
-import imagen1 from '../../img/pasta-g825b3f706_1920.jpg'
+import imagen1 from '../../img/wood-744306_1280.jpg'
 import imagen2 from '../../img/people-2557408_1280.jpg'
 import imagen3 from '../../img/chef-5993951_1280.jpg'
 import logo from '../../img/La cocina de Alicia Logo.png'

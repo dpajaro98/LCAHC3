@@ -1,5 +1,5 @@
 import React, {Fragment} from "react";
-import imagen1 from '../../Images/logo@2x.png'
+import imagen1 from '../../img/La cocina de Alicia Logo.png'
 import Contadorcompras from './Contadorcompras'
 
 
@@ -8,7 +8,7 @@ class Plantillacarrito extends React.Component{
     render(props){
         var logica = this.props.identificador
         var logica2= localStorage.getItem(logica);
-        var logica2 = parseInt(logica2 ) 
+        var logica2 = parseInt(logica2) 
             return(
                 <div>
                     <div className="row">

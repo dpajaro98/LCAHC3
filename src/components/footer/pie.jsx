@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap";
 import imagen1 from '../../img/La cocina de Alicia Logo.svg'
+import "./foo.css";
 class Footer extends React.Component{
     render(){
         return(
