@@ -1,12 +1,12 @@
 import React from "react";
-import imagen1 from '../../Images/plato1.jpg';
-import imagen2 from '../../Images/plato2.jpg';
-import imagen3 from '../../Images/plato3.jpg';
-import imagen4 from '../../Images/plato4.jpg';
-import imagen5 from '../../Images/menu@2x.png';
+import imagen1 from '../../img/spaguetti.jpg'
+import imagen2 from '../../img/pastas a la veneciana.jpg';
+import imagen3 from '../../img/ganso asado.jpg';
+import imagen4 from '../../img/sopa de res.jpg';
+import imagen5 from '../../img/menu-3206749_1280.jpg';
 import {
     BrowserRouter as Router,
-    Switch,
+    Routes,
     Route,
     Link
   } from "react-router-dom";
@@ -21,24 +21,24 @@ const Article2inicio = () =>{
             <div className="col-1"></div>
             <div className="col-2">
                 <div className="ContenedorRecomendacion">
-                    <h6 className="TituloRecomendaciones">Wiener schnitzel</h6>
+                    <h6 className="TituloRecomendaciones">Pastas</h6>
                         <img src={imagen1} width="196px"></img>
             </div>
             <br></br>
             <div className="ContenedorRecomendacion">
-                <h6 className="TituloRecomendaciones"> Kartoffelsalatl</h6>
+                <h6 className="TituloRecomendaciones"> Pasta a la Veneciana</h6>
                 <img src={imagen3} width="196px"></img>
             </div>
         </div>
         <div className="col-1"></div>
         <div className="col-2">
             <div className="ContenedorRecomendacion">
-                <h6 className="TituloRecomendaciones">Asado de cerdo</h6>
+                <h6 className="TituloRecomendaciones">ganso asado</h6>
                 <img src={imagen2} width="196px"></img>
             </div>
             <br></br>
            <div className="ContenedorRecomendacion">
-                <h6 className="TituloRecomendaciones">Backhendl</h6>
+                <h6 className="TituloRecomendaciones">Sopa de res</h6>
                 <img src={imagen4} width="196px"></img>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "bootstrap";
-import imagen1 from '../../Images/logo@2x.png'
+import imagen1 from '../../img/La cocina de Alicia Logo.svg'
 class Footer extends React.Component{
     render(){
         return(
@@ -16,22 +16,22 @@ class Footer extends React.Component{
 </div>
 
 <div className="col-2 "> <p className="centrartexo"><br/><br/>MAPA DEl SITIO 
-          Restaurante sal y salsas LTDA.<br/>
+          Restaurante La cocina de Alicia<br/>
 
           calle 19 n.7-30, Bogota
           
-          reserves@salysalsas.com<br/>
+          reserves@lca.com<br/>
           
-          31232525321<br/>
+          2002322203<br/>
           
-          copyright2020</p>
+          copyright2021</p>
 
         </div>
         <div className="col">
-        <p className="centrartexo"><br/><br/>CONTACTOS</p>
+        <p className="centrartexo"><br/><br/>Menu</p>
         </div>
         <div className="col">
-        <p className="centrartexo"><br/><br/>RESERVAS</p>
+        <p className="centrartexo"><br/><br/>inicio</p>
         </div>
         <div className="col">  <img  src={imagen1} alt="HTML5 Icon" width="230px" height="240px" ></img>
 </div>

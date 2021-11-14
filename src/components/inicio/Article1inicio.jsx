@@ -1,5 +1,5 @@
 import React from "react";
-import imagen1 from '../../Images/article1.png'
+import imagen1 from '../../img/people-2557408_1280.jpg'
 
 
 const Article1inicio = () =>{

@@ -1,8 +1,8 @@
 import React from "react";
-import imagen1 from '../../Images/article1.png'
-import imagen2 from '../../Images/personal1.2.jfif'
-import imagen3 from '../../Images/personal1.3.jfif'
-import imagen4 from '../../Images/personal1.4.jfif'
+import imagen1 from '../../img/pasta-g825b3f706_1920.jpg'
+import imagen2 from '../../img/personal1.2.jfif'
+import imagen3 from '../../img/personal1.3.jfif'
+import imagen4 from '../../img/personal1.4.jfif'
 
 
 const Asideinicio = () =>{

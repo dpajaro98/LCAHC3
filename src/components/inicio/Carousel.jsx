@@ -1,8 +1,8 @@
 import React from "react";
-import imagen1 from '../../Images/foto1@2x.png'
-import imagen2 from '../../Images/foto3@2x.png'
-import imagen3 from '../../Images/foto4@2x.jpg'
-import logo from '../../Images/logo@2x.png'
+import imagen1 from '../../img/pasta-g825b3f706_1920.jpg'
+import imagen2 from '../../img/people-2557408_1280.jpg'
+import imagen3 from '../../img/chef-5993951_1280.jpg'
+import logo from '../../img/La cocina de Alicia Logo.png'
 
 const Carousel = () =>{
   return(
@@ -21,7 +21,7 @@ const Carousel = () =>{
           <br></br>
           <br></br>
           <br></br>
-          <h2 className="Titulodecarrusel">¡SABORES QUE EXALTAN TUS SENTIDOS!</h2>
+          <h2 className="Titulodecarrusel">¡LA COCINA DE MAMA!</h2>
           <br></br>
           <br></br>
           <br></br>
@@ -35,7 +35,7 @@ const Carousel = () =>{
           <br></br>
           <br></br>
           <br></br>
-          <h2 className="Titulodecarrusel">¡SABORES QUE EXALTAN TUS SENTIDOS!</h2>
+          <h2 className="Titulodecarrusel">¡LA COCINA DE MAMA!</h2>
           <br></br>
           <br></br>
           <br></br>
@@ -49,7 +49,7 @@ const Carousel = () =>{
           <br></br>
           <br></br>
           <br></br>
-          <h2 className="Titulodecarrusel">¡SABORES QUE EXALTAN TUS SENTIDOS!</h2>
+          <h2 className="Titulodecarrusel">¡LA COCINA DE MAMA!</h2>
           <br></br>
           <br></br>
           <br></br>

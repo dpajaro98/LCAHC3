@@ -1,4 +1,4 @@
-import React,{Component} from "react";
+import React from "react";
 import brand from "./../../img/La cocina de Alicia Logo.svg"
 import cpr from "./../../img/62392824-icono-de-carrito-de-compras-icono-de-vector-de-mejor-diseño-plano.jpg"
 import usrl from "./../../img/16363.png"
@@ -6,10 +6,10 @@ import './../../css/nv.css'
 import {  
   Link
 } from "react-router-dom";
-export class NavBar extends Component{
+class navbarg extends React.Component{
     render(){
         return (
-          <React.Fragment>
+          
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-style">
               <div class="container-fluid">
               
@@ -60,7 +60,8 @@ export class NavBar extends Component{
                 </div>
               </div>
             </nav>
-          </React.Fragment>
+          
         );
     }
 }
+export default navbarg;
